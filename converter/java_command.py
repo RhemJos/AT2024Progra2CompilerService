@@ -1,7 +1,8 @@
 from pathlib import Path
+from command import Command
 
 
-class JavaCommand:
+class JavaCommand(Command):
 
     def __init__(self):
         self.name = "java"

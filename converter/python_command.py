@@ -1,4 +1,7 @@
-class PythonCommand:
+from command import Command
+
+
+class PythonCommand(Command):
 
     def __init__(self):
         self.name = "python"
