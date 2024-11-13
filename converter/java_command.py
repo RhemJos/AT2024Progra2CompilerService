@@ -9,6 +9,7 @@ class JavaCommand(Command):
         self.name = "java"
 
     def build(self, parameter):
+        parameter.validate()
         try:
             java_compiler = parameter.get_binary() + 'javac '
             java_execute = parameter.get_binary() + 'java'
