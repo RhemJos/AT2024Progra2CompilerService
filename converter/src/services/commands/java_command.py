@@ -1,6 +1,6 @@
 from pathlib import Path
-from command import Command
-from command_exception import CommandException
+from src.services.commands.command import Command
+from src.common.exceptions.command_exception import CommandException
 
 
 class JavaCommand(Command):

@@ -1,7 +1,7 @@
-from parameter import Parameter
-from command import Command
-from execute import Execute
-from compiler_factory import CompilerFactory
+from src.services.parameter import Parameter
+from src.services.commands.command import Command
+from src.services.execute import Execute
+from src.services.commands.compiler_factory import CompilerFactory
 
 
 class CompilerFacade:

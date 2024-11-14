@@ -1,7 +1,7 @@
 import unittest
-from java_command import JavaCommand
-from parameter import Parameter
-from parameter_exception import ParameterException
+from src.services.commands.java_command import JavaCommand
+from src.services.parameter import Parameter
+from src.common.exceptions.parameter_exception import ParameterException
 
 
 class TestJavaCommand(unittest.TestCase):
