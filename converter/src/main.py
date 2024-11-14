@@ -1,5 +1,5 @@
 import os
-from compiler_facade import CompilerFacade
+from src.services.commands.compiler_facade import CompilerFacade
 from flask import Flask
 from flask import request
 
