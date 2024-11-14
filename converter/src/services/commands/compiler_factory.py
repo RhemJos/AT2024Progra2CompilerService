@@ -1,6 +1,6 @@
-from java_command import JavaCommand
-from python_command import PythonCommand
-from command import Command
+from src.services.commands.java_command import JavaCommand
+from src.services.commands.python_command import PythonCommand
+from src.services.commands.command import Command
 
 code_map = {
     'java': JavaCommand(),
